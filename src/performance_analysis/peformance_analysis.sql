@@ -5,7 +5,7 @@ SELECT EXTRACT(MONTH FROM order_timestamp) AS "month",
        SUM(unit_price + freight_value) AS revenue
 FROM gold.fact_orders
 GROUP BY EXTRACT(MONTH FROM order_timestamp)
-ORDER BY revenue DESC;p
+ORDER BY revenue DESC;
 
 -- 2. Danh mục sản phẩm nào đóng góp nhiều nhất vào tổng doanh thu?
 SELECT dp.category_name_english, 
@@ -18,20 +18,20 @@ LIMIT 1;
 
 -- 3. Sản phẩm nào bán chạy nhất (theo số lượng và doanh thu) trong từng danh mục?
 -- Theo số lượng
-SELECT dp.category_name_english, dp.product_id, 
-       SUM(COUNT(*)) AS quantity_sold
+SELECT dp.category_name_english, 
+       COUNT(*) AS quantity_sold
 FROM gold.fact_orders fo
 JOIN gold.dim_products dp ON fo.product_key = dp.product_key
-GROUP BY dp.category_name_english, dp.product_id
-ORDER BY dp.category_name_english, quantity_sold DESC;
+GROUP BY dp.category_name_english
+ORDER BY quantity_sold DESC;
 
 -- Theo doanh thu
-SELECT dp.category_name_english, dp.product_id, 
+SELECT dp.category_name_english, 
        SUM(fo.unit_price + fo.freight_value) AS revenue
 FROM gold.fact_orders fo
 JOIN gold.dim_products dp ON fo.product_key = dp.product_key
-GROUP BY dp.category_name_english, dp.product_id
-ORDER BY dp.category_name_english, revenue DESC;
+GROUP BY dp.category_name_english
+ORDER BY revenue DESC;
 
 
 -- 4. Có sự khác biệt nào về doanh thu giữa các khu vực địa lý ?
