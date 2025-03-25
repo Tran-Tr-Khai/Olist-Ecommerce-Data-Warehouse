@@ -159,5 +159,3 @@ COMMENT ON VIEW gold.fact_orders IS 'Fact table combining orders and order_items
 
 
 SELECT * FROM gold.fact_orders;
-
-SELECT count(*) FROM silver.order_items;

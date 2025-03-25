@@ -22,8 +22,8 @@ Usage Notes:
 -- ====================================================================
 -- Checking 'silver.orders'
 -- ====================================================================
-SELECT COUNT(*) FROM bronze.orders;
-SELECT COUNT(*) FROM silver.orders;
+SELECT COUNT(*) FROM bronze.orders; --99441
+SELECT COUNT(*) FROM silver.orders; --98658
 
 -- Check for NULLs or Duplicates in Primary Key
 -- Expectation: No results 
@@ -71,8 +71,8 @@ WHERE oi.order_id IS NULL;
 -- ====================================================================
 -- Checking 'silver.order_items'
 -- ====================================================================
-SELECT COUNT(*) FROM bronze.order_items;
-SELECT COUNT(*) FROM silver.order_items;
+SELECT COUNT(*) FROM bronze.order_items; --112650
+SELECT COUNT(*) FROM silver.order_items; --98658
 
 -- Check for NULLs or Duplicates in Composite Primary Key (order_id, order_item_id)
 -- Expectation: No Results
@@ -108,8 +108,8 @@ WHERE o.order_id IS NULL;
 -- ====================================================================
 -- Checking 'silver.order_payments'
 -- ====================================================================
-SELECT COUNT(*) FROM bronze.order_payments;
-SELECT COUNT(*) FROM silver.order_payments;
+SELECT COUNT(*) FROM bronze.order_payments; --103886
+SELECT COUNT(*) FROM silver.order_payments; --95937
 
 -- Check for NULLs or Duplicates in Composite Primary Key (order_id, payment_sequential)
 -- Expectation: No Results
@@ -162,10 +162,8 @@ ORDER BY discrepancy DESC;
 -- ====================================================================
 -- Checking 'silver.order_reviews'
 -- ====================================================================
-SELECT COUNT(*) FROM bronze.order_reviews;
-SELECT * FROM silver.order_reviews
-WHERE order_id like '02e0b68852217f5715fb9cc885829454';
-
+SELECT COUNT(*) FROM bronze.order_reviews; --99224
+SELECT COUNT(*) FROM silver.order_reviews; --97701
 -- Check for NULLs or Duplicates in Primary Key
 -- Expectation: No Results
 SELECT 
@@ -206,8 +204,8 @@ WHERE o.order_id IS NULL;
 -- ====================================================================
 -- Checking 'silver.products'
 -- ====================================================================
-SELECT COUNT(*) FROM bronze.products;
-SELECT COUNT(*) FROM silver.products;
+SELECT COUNT(*) FROM bronze.products; --32951
+SELECT COUNT(*) FROM silver.products; --31860
 -- Check for NULLs or Duplicates in Primary Key
 -- Expectation: No Results
 SELECT 
@@ -238,8 +236,8 @@ WHERE oi.product_id IS NULL;
 -- ====================================================================
 -- Checking 'silver.sellers'
 -- ====================================================================
-SELECT COUNT(*) FROM bronze.sellers;
-SELECT COUNT(*) FROM silver.sellers;
+SELECT COUNT(*) FROM bronze.sellers; --3095
+SELECT COUNT(*) FROM silver.sellers; --3084
 
 -- Check for NULLs or Duplicates in Primary Key
 -- Expectation: No Results
@@ -273,8 +271,8 @@ WHERE oi.seller_id IS NULL;
 -- ====================================================================
 -- Checking 'silver.customers'
 -- ====================================================================
-SELECT COUNT(*) FROM bronze.customers;
-SELECT COUNT(*) FROM silver.customers;
+SELECT COUNT(*) FROM bronze.customers; --99441
+SELECT COUNT(*) FROM silver.customers;	--98658
 
 -- Check for NULLs or Duplicates in Primary Key
 -- Expectation: No Results
@@ -308,8 +306,8 @@ WHERE o.customer_id IS NULL;
 -- ====================================================================
 -- Checking 'silver.geolocation'
 -- ====================================================================
-SELECT COUNT(*) FROM bronze.geolocation;
-SELECT COUNT(*) FROM silver.geolocation;
+SELECT COUNT(*) FROM bronze.geolocation; --1000163
+SELECT COUNT(*) FROM silver.geolocation; --19015
 
 -- Check for NULLs or Duplicates in Primary Key
 -- Expectation: No Results
@@ -330,8 +328,8 @@ WHERE geolocation_city != TRIM(geolocation_city) OR geolocation_state != TRIM(ge
 -- ====================================================================
 -- Checking 'silver.product_category_name_translation'
 -- ====================================================================
-SELECT COUNT(*) FROM bronze.product_category_name_translation;
-SELECT COUNT(*) FROM silver.product_category_name_translation;
+SELECT COUNT(*) FROM bronze.product_category_name_translation; --71
+SELECT COUNT(*) FROM silver.product_category_name_translation; --71
 
 -- Check for NULLs or Duplicates in Primary Key
 -- Expectation: No Results
