@@ -1,0 +1,34 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="WSm97viWp-CEM94ddss1">
+    <mxGraphModel dx="1383" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WGlPJuhrZWzJpO2kUNfr-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Analysis Data Sources&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;shadow=1;shadowColor=#000000;shadowOpacity=100;shadowOffsetX=8;shadowOffsetY=7;shadowBlur=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WGlPJuhrZWzJpO2kUNfr-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Analysing&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="70" y="160" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WGlPJuhrZWzJpO2kUNfr-9" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Data &lt;b&gt;Ingestion&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;shadow=1;shadowColor=#000000;shadowOpacity=100;shadowOffsetX=8;shadowOffsetY=7;shadowBlur=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WGlPJuhrZWzJpO2kUNfr-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Coding&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="350" y="160" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WGlPJuhrZWzJpO2kUNfr-11" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Data Completeness &amp;amp; Schema Checks&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;shadow=1;shadowColor=#000000;shadowOpacity=100;shadowOffsetX=8;shadowOffsetY=7;shadowBlur=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="180" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WGlPJuhrZWzJpO2kUNfr-12" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Validating&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="630" y="160" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WGlPJuhrZWzJpO2kUNfr-13" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Documenting Versioning in git&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;shadow=1;shadowColor=#000000;shadowOpacity=100;shadowOffsetX=8;shadowOffsetY=7;shadowBlur=0;fillColor=default;fillOpacity=100;imageWidth=24;arcSize=12;imageVerticalAlign=middle;fixedWidth=0;labelPadding=0;strokeOpacity=100;" vertex="1" parent="1">
+          <mxGeometry x="880" y="180" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WGlPJuhrZWzJpO2kUNfr-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Analysing&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="910" y="160" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
