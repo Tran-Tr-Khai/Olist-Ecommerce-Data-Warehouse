@@ -18,9 +18,13 @@ The data for this warehouse is sourced from the **Olist E-commerce Dataset**, wh
 
 ![Data Architecture](data_architecture/data_architecture.jpg)
 
+*The overall architecture of the data warehouse, illustrating the flow from raw data to analytics-ready data across Bronze, Silver, and Gold layers.*
+
 ### Data Layers
 
 ![Data layers](data_architecture/data_layers.jpg)
+
+*Detailed view of the Bronze, Silver, and Gold layers, showcasing the tables and transformations at each stage.*
 
 1. **Bronze Layer**: 
    - Contains raw data sourced from Olist, including orders, order items, customers, products, sellers, payments, and reviews.
@@ -50,6 +54,10 @@ The data for this warehouse is sourced from the **Olist E-commerce Dataset**, wh
 
 ![Data Flow](data_architecture/data_flow.jpg)
 
+*Flowchart depicting the ETL process from source data to the final Gold Layer, including data loading and transformation steps.*
+
 ### Data Model
 
 ![Data Modeling](data_architecture/data_modeling.jpg)
+
+*Star Schema representation of the Gold Layer, showing the relationships between the fact table (`fact_orders`) and dimension tables.*
