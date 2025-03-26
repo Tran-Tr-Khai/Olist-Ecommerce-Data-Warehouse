@@ -67,7 +67,7 @@ The data for this warehouse is sourced from the **Olist E-commerce Dataset**, wh
 
 # Performance Analysis 
 
-![Link report](performance_analysis/report/result.pdf) 
+[Link report](performance_analysis/report/result.pdf) 
 
 ![dashboard](performance_analysis/report/p1.jpg)
 
