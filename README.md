@@ -70,5 +70,6 @@ The data for this warehouse is sourced from the **Olist E-commerce Dataset**, wh
 [Link report](performance_analysis/report/result.pdf) 
 
 ![dashboard](performance_analysis/report/p1.jpg)
-![dashboard](performance_analysis/report/p2.jpg)
-![dashboard](performance_analysis/report/p3.jpg)
+
+Use filter to observe the MoM value.
+![dashboard](performance_analysis/report/p2.jpg)  ![dashboard](performance_analysis/report/p3.jpg)
