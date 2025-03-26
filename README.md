@@ -8,13 +8,8 @@ This project develops a **Data Warehouse** based on a **Star Schema** to facilit
 - Optimize data querying for integration with Business Intelligence (BI) tools.
 - Ensure data quality through integrity and consistency checks.
 
-<<<<<<< HEAD
---- 
-
-## Data Source
-=======
 ### Data Source
->>>>>>> 632335f48a6ed79eb97edd5939cd38e6738ed252
+=======
 The data for this warehouse is sourced from the **Olist E-commerce Dataset**, which contains information about orders, products, customers, sellers, payments, and reviews from an Brazilian e-commerce platform.  
 - **Dataset Link**: [Olist Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
 - **License**: Provided under the CC BY-NC-SA 4.0 license by Olist.
@@ -73,6 +68,7 @@ The data for this warehouse is sourced from the **Olist E-commerce Dataset**, wh
 
 # Performance Analysis 
 
-![Link report](src/performance_analysis/result.pdf) 
+![Link report](src/performance_analysis/report/result.pdf) 
 
-![dashboard](src/performance_analysis/p1.jpg)
+![dashboard](src/performance_analysis/report/p1.jpg)
+
